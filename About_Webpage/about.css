@@ -1,0 +1,218 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(250, 250, 243);
+}
+.top_card{
+    background-image: url(images/IT-services.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25vw;
+    width: 40vw;
+    margin-left: 7%;
+    margin-top: 3%;
+    border-radius: 5%;
+}
+
+.title{
+    font-size: 3vw;
+    margin-top: 0%;
+    margin-bottom: 7%;
+  color:rgb(58, 234, 181);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#plot{
+    color: brown;
+   font-size: 1vw;
+}
+i{
+    color: rgb(220, 220, 34);
+    width: 100px;
+   padding-bottom: 3%;
+  }
+
+.main{
+    display: flex;
+  }
+
+.top_card-2{ text-align: center;
+    
+  margin-left: 10%;
+  margin-top: 6%;
+  border-radius: 3%;
+    border: 3px solid rgb(142, 207, 37) ;
+   padding: 20px;
+   height: 11vw;
+   box-shadow: 0 7px 7px gray;
+  
+}
+.navbar{
+    height: 48px;
+    overflow: visible;
+    text-align: center;
+}
+
+button{
+    background: transparent;
+    border: none;
+    width: 20vw;
+    font-size: large;
+    padding-top: 10px;
+
+}
+i{
+   color: rgb(31, 7, 135);
+   padding: 3%;
+   background-image: linear-gradient(to right,lightseagreen,#1442b7,transparent);
+  }
+
+#closed:hover{
+    font-size: larger;
+    color:  rgb(0, 195, 81);
+}
+#open{
+    
+    font-size: larger;
+    font-size: larger;
+    color:rgb(0, 195, 81);
+}
+.image{
+    margin-top: 10%;
+    height: 30vw;
+    border-radius: 2%;
+    background-image: url(images/hero1.jpg);
+}
+.read_container{
+    float: left;
+    margin-top: 8%;
+    margin-left: 7%;
+    color: white;
+    font-size: 1vw;
+    
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.grids{
+ 
+   width: 100vw;
+   margin-top: 7%;
+   display: grid;
+   grid-template-columns:  50% 50% ;
+   grid-template-rows: 350px 350px;
+
+   
+
+}
+.b1{background-image:url(images/Travel-Agent-News-for-AmaWaterways-and-Kristen-Karst-being-Person-of-the-year.jpg) ;
+background-size: 50vw;
+background-position: initial;
+background-repeat: no-repeat;
+cursor: pointer;
+}
+.b2{background-image: url(images/IT-services.jpg);
+background-position: initial;
+background-size: 66vw;
+background-repeat: no-repeat;
+cursor: pointer;}
+.b3{background-image: url(images/iStock-537599600-1024x683.jpg);
+background-position: initial;
+background-repeat: no-repeat;
+background-size: 50vw;
+cursor: pointer;}
+.b4{background-image: url(images/pepole.jpg);
+background-position: initial;
+background-repeat: no-repeat;
+background-size: 56vw;
+cursor: pointer;}
+
+.tag{
+    color: rgb(238, 238, 238);
+    margin-top: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+    
+}
+.tag:hover{
+    font-size: larger;
+    cursor: pointer;
+}
+
+.cards{
+    margin-top: 7%;
+    display: flex; 
+    justify-content: center;
+    
+
+}
+
+.card1{
+    width: 200px;
+    height: 300px;
+   background-color:  rgb(219, 46, 219);
+   border-radius: 40% ;
+   margin-right: 10%;
+   box-shadow: 0 7px 8px gray;
+}
+
+.card2{
+    width: 200px;
+    height: 300px;
+   background-color: rgb(142, 207, 37) ;
+   border-radius: 40% ;
+   margin-right: 10%;
+   box-shadow: 0 7px 8px gray;
+}
+.card3{
+    width: 200px;
+    height: 300px;
+   background-color:  rgb(91, 24, 215);
+   border-radius: 40% ;
+   box-shadow: 0 7px 8px gray;
+}
+
+.tags{
+    color: rgb(238, 238, 238);
+    margin-top: 33%;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.footer{
+    background-color: rgb(125, 124, 122);
+    width:100%;
+    height: 40px;
+    margin-top: 9%;
+    align-items: center;
+}
+
+#ftags{
+    padding-top: 6px;
+    
+ 
+}
+
+#plots{
+    text-align: center;
+    color: aliceblue;
+}
+.btn{
+    text-align: center;
+   
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ cursor: pointer;
+ color: rgb(142, 207, 37);
+ margin-top: 2%;
+ background-color: transparent;
+ border: 2px solid rgb(142, 207, 37);
+ padding: 2%;
+}
+
+.read_more{
+    display: none;
+    font-size: 1vw;
+}
